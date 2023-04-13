@@ -1,9 +1,18 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import { RouterLink } from 'vue-router'
 </script>
-
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <RouterLink to="/map">Map</RouterLink> <br/>
+  <RouterLink to="/async-script">AsyncScript</RouterLink> <br/>
+  <RouterLink to="/env">ENV</RouterLink> <br/>
+  <RouterLink to="/file-xlsx">FileXlsx</RouterLink> <br/>
+  <RouterLink to="/image">Image</RouterLink> <br/>
+  <RouterLink to="/json">Json</RouterLink> <br/>
+  <RouterLink to="/number">Number</RouterLink> <br/>
+  <RouterLink to="/pin-yin">PinYin</RouterLink> <br/>
+  <RouterLink to="/storage">Storage</RouterLink> <br/>
+  <RouterLink to="/string">String</RouterLink> <br/>
+  <RouterLink to="/url">Url</RouterLink> <br/>
+  <RouterLink to="/uuid">Uuid</RouterLink> <br/>
+  <RouterLink to="/wechat">Wechat</RouterLink> <br/>
 </template>
