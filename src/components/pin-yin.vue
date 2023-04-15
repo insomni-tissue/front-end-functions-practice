@@ -3,7 +3,7 @@
 </template>
 <script setup lang="ts">
 import { PinYinInteractor } from 'front-end-functions';
-const value = '宝贝你好饕荑';
+const value = '宝贝你好呀';
 const onUpdatePinyin = async (value: string) => {
   /** 中文转拼音处理 */
   let newPinYin = '';
@@ -24,10 +24,4 @@ const getPinyin = async (value: string) => {
 getPinyin(value);
 </script>
 <style scoped>
-.aMap {
-  width: 100px;
-  height: 100px;
-  font-size: 26px;
-  background: red;
-}
 </style>

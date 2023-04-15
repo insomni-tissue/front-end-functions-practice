@@ -72,6 +72,11 @@ const router = createRouter({
       path: '/wechat',
       name: 'Wechat',
       component: () => import('@/components/wechat.vue')
+    },
+    {
+      path: '/docs',
+      name: 'Docs',
+      component: () => import('@/components/docs.vue')
     }
   ]
 })

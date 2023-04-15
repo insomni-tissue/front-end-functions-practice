@@ -15,4 +15,5 @@ import { RouterLink } from 'vue-router'
   <RouterLink to="/url">Url</RouterLink> <br/>
   <RouterLink to="/uuid">Uuid</RouterLink> <br/>
   <RouterLink to="/wechat">Wechat</RouterLink> <br/>
+  <RouterLink to="/docs">Docs</RouterLink> <br/>
 </template>
