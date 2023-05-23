@@ -77,6 +77,11 @@ const router = createRouter({
       path: '/docs',
       name: 'Docs',
       component: () => import('@/components/docs.vue')
+    },
+    {
+      path: '/down-excel',
+      name: 'DownExcel',
+      component: () => import('@/components/down-excel.vue')
     }
   ]
 })

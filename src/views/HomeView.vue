@@ -6,6 +6,7 @@ import { RouterLink } from 'vue-router'
   <RouterLink to="/async-script">AsyncScript</RouterLink> <br/>
   <RouterLink to="/env">ENV</RouterLink> <br/>
   <RouterLink to="/file-xlsx">FileXlsx</RouterLink> <br/>
+  <RouterLink to="/down-excel">DownExcel</RouterLink> <br/>
   <RouterLink to="/image">Image</RouterLink> <br/>
   <RouterLink to="/json">Json</RouterLink> <br/>
   <RouterLink to="/number">Number</RouterLink> <br/>
