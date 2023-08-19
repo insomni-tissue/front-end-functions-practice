@@ -6,7 +6,7 @@ const path = require('path');
  * 遍历mock代理配置 START
  */
 const getProxyConfig = () => {
-  const mockFiles = fs.readdirSync(path.resolve(__dirname, '../src/server/api'));
+  const mockFiles = fs.readdirSync(path.resolve(__dirname, '../src/server'));
   const proxyMap = {};
   mockFiles.forEach((fileName) => {
     if (!fileName.includes('.ts')) {

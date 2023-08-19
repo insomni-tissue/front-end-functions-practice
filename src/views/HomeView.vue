@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router'
 </script>
 <template>
   <RouterLink to="/map">Map</RouterLink> <br/>
-  <RouterLink to="/async-script">AsyncScript</RouterLink> <br/>
+  <!-- <RouterLink to="/async-script">AsyncScript</RouterLink> <br/>
   <RouterLink to="/env">ENV</RouterLink> <br/>
   <RouterLink to="/file-xlsx">FileXlsx</RouterLink> <br/>
   <RouterLink to="/down-excel">DownExcel</RouterLink> <br/>
@@ -16,5 +16,12 @@ import { RouterLink } from 'vue-router'
   <RouterLink to="/url">Url</RouterLink> <br/>
   <RouterLink to="/uuid">Uuid</RouterLink> <br/>
   <RouterLink to="/wechat">Wechat</RouterLink> <br/>
-  <RouterLink to="/docs">Docs</RouterLink> <br/>
+  <RouterLink to="/docs">Docs</RouterLink> <br/> -->
 </template>
+<style>
+a {
+  width: 10vw;
+  background: red;
+  display: block;
+}
+</style>
